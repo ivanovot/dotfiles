@@ -101,17 +101,17 @@ binds {
     Mod+Shift+Minus { set-window-height "-10%"; }
     Mod+Shift+R { switch-preset-window-height; }
     Mod+Shift+Right { move-column-right; }
-    Mod+Shift+T { toggle-window-floating; }
     Mod+Shift+Up { move-window-up; }
-    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+Shift+WheelScrollDown { focus-column-right; }
     Mod+Shift+WheelScrollUp { focus-column-left; }
     Mod+Up { focus-window-up; }
     Mod+W { toggle-column-tabbed-display; }
     Mod+WheelScrollLeft { focus-column-left; }
     Mod+WheelScrollRight { focus-column-right; }
+    Super+Ctrl+X { toggle-window-floating; }
     Super+Shift+Down hotkey-overlay-title="Move Down" { move-window-down; }
     Super+Shift+Up hotkey-overlay-title="Move Up" { move-window-up; }
+    Super+Shift+X { switch-focus-between-floating-and-tiling; }
     Mod+Shift+P { power-off-monitors; }
     Ctrl+Print { screenshot-screen; }
     Ctrl+XF86Launch1 { screenshot-screen; }

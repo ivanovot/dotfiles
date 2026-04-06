@@ -38,7 +38,7 @@
   "enableRippleEffects": true,
   "wallpaperFillMode": "Stretch",
   "blurredWallpaperLayer": false,
-  "blurWallpaperOnOverview": false,
+  "blurWallpaperOnOverview": true,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
   "showFocusedWindow": true,
@@ -168,8 +168,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 3,
-      "lastUsed": 1775229703529,
+      "count": 5,
+      "lastUsed": 1775231928858,
       "name": "Firefox"
     }
   },
@@ -379,9 +379,18 @@
   "screenPreferences": {
     "wallpaper": [
       "all"
+    ],
+    "dock": [
+      "all"
+    ],
+    "osd": [
+      "all"
     ]
   },
-  "showOnLastDisplay": {},
+  "showOnLastDisplay": {
+    "dock": true,
+    "osd": false
+  },
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {},
   "displayProfiles": {},
@@ -398,7 +407,7 @@
       "screenPreferences": [
         "all"
       ],
-      "showOnLastDisplay": true,
+      "showOnLastDisplay": false,
       "leftWidgets": [
         "launcherButton",
         "workspaceSwitcher",
