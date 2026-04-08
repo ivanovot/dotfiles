@@ -168,8 +168,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 5,
-      "lastUsed": 1775231928858,
+      "count": 38,
+      "lastUsed": 1775556362732,
       "name": "Firefox"
     }
   },
@@ -391,7 +391,11 @@
     "dock": true,
     "osd": false
   },
-  "niriOutputSettings": {},
+  "niriOutputSettings": {
+    "Shenzhen KTC Technology Group AF24H1 000000000000": {
+      "focusAtStartup": true
+    }
+  },
   "hyprlandOutputSettings": {},
   "displayProfiles": {},
   "activeDisplayProfile": {},
